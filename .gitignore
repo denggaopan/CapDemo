@@ -1,0 +1,61 @@
+
+# User-specific files
+*.suo
+*.csproj.user
+*.pubxml.user
+*.userosscache
+*.sln.docstates
+*.ps1
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*.obj
+*.pdb
+*.tmp
+*.tmp_proj
+*.log
+*.cache
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+
+# Others
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
+orleans.codegen.cs
+
+
+# SQL Server files
+*.mdf
+*.ldf
+
+.vs/
+/.localhistory
+.vshistory
